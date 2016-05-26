@@ -1,0 +1,20 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Interpolacion (jade)
+  body
+    h1 Texto sin formato
+    
+    | Texto sin formato puede incluir <strong>html</strong>
+    p
+    | Siempre debe estar en su propia línea
+    
+    
+    p Texto sin formato puede incluir <strong>html</strong>
+    
+    script.
+      if (usingJade)
+        console.log('Eres increible')
+      else
+        console.log('Use jade')

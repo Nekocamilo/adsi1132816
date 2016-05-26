@@ -1,0 +1,29 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Interpolacion (jade)
+  body
+    h1 Literacion (jade)
+    
+    ul
+      each val in [1, 2, 3, 4, 5]
+        li= val
+
+    ul
+      each val, index in ['cero', 'uno', 'dos']
+        li= index + ': ' + val
+        
+     ul
+      each val, index in {1:'uno',2:'dos',3:'tres'}
+        li= index + ': ' + val
+     
+     - var values = [];
+      ul
+        each val in values.length ? values : ['No existen valores']
+          li= val
+          
+     - var n = 0
+     ul
+       while n < 4
+         li= n++

@@ -1,0 +1,13 @@
+section {
+    		background-color: black;
+    		color: white;
+    		padding: 20px;
+    		margin: 8px auto;
+    		width: 400px;
+    	}
+    	h1{
+    		color: aqua;
+    	}
+    	p {
+    		font-family: Verdana;
+    	}

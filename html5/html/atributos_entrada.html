@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Atributos Elementos de Entrada (formulario)</title>
+  </head>
+  <body>
+    <h1>Atributos Elementos de Entrada (formulario)</h1>
+    <hr>
+    <fieldset>
+      <legend>validar / autocompletar</legend>
+      <form method="post">
+        <label for="correo">Autocompleta:</label>
+        <input type="email" id="correo1" placeholder="Correo Electronico"><br>
+        <label for="correo2">No Autocompleta:</label>
+        <input type="email" id="correo2" autocomplete="off"><br>
+        <label for="enfocar">Enfocar:</label>
+        <input type="nombre" id="enfocar" autofocus><br>
+        <label for="validar1">Validar:</label>
+        <input type="nombre" id="validar1" required><br>
+        <label for="validar2">No Validar:</label>
+        <input type="nombre" id="validar2" required formnovalidate><br>
+        <label for="medida">Alto y Ancho:</label>
+        <input type="nombre" id="medida" width="400px" height="100px"><br>
+        <label for="rango">Minimo / Maximo / Pasos:</label>
+        <input type="range" id="rango" min="0" max="500" step="50" oninput="salida.value=this.value">
+        <output id="salida"></output><br>
+        <input type="submit" value="Enviar" formaction="destino.php">
+        <input type="submit" value="Enviar" formaction="get">
+      </form>
+    </fieldset>
+  </body>
+</html>

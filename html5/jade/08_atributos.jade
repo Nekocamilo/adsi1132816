@@ -1,0 +1,24 @@
+doctype
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title atributos (formulario)
+  body
+    h1 elementos de entradas (formulario)
+    hr 
+    fieldset
+      legend validar / autocompletar
+      form(method='post')
+        label(for='nombre') nombre:
+        input(type='text', id='nombre', name='nombre' required)
+        br
+        input(type='submit', value='enviar')
+    br
+    br
+    fieldset
+      legend no validar / no autocompletar
+      form(method='post', autocomplete='off', novalidate)
+        label(for='nombre') nombre:
+        input(type='text', id='nombre', name='nombre')
+        br
+        input(type='submit', value='enviar')

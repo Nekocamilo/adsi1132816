@@ -1,0 +1,81 @@
+doctype
+html(lang="es")
+  head
+     meta(charset="UTF-8")
+  title Atrbutos (jade)
+  style(stylesheet).
+      .verde { color: green; }
+      .rojo { color: red; }
+      .amarillo { background-color: yellow; }
+      .centrar { text-align: center; }
+      .negrita { font-wight: normal;} 
+      .rayado {text-decoration: underline;}
+      .active { background-color: green; color: lime; }
+  body
+    h1 Atributos (jade)
+    // Un solo Atributo
+    a(href='http://www.google.com') Ir a Google
+    // Varios Atributos
+    br
+    a(href='http://www.yahoo.com', target='_blank', class='link') Ir a Yahoo
+    br
+    br
+    // Variable
+    - var color = false
+    // Condicionar valores de los atributos
+    div(class=color ? 'verde' : 'rojo') Color
+    br
+    br
+    // Atributos en varias lineas
+    input(
+      type='number'
+      min='10'
+      max='99'
+      placeholder='#'
+    )
+    br
+    br
+    // Atributos Boolean
+    | Falso
+    input(
+      type='radio'
+      name='bool'
+      checked = false
+    )
+    | Verdadero
+    input(
+      type='radio'
+      name='bool'
+      checked = true
+    )
+    br
+    br
+    // Atributos Style
+    button(style={ 'background-color': 'black', color: "crimson", border: 'black', padding: '10px'}) Boton
+    // Atributo Class
+    - var misclases = ['amarillo', 'centrar', 'rayado']
+    h1(class=misclases) ADSI 1132816
+    br
+    br
+    // Seccion Actual
+    - var actual = '/Nosotros'
+    nav
+      li: a(class={active: actual == '/Inicio'}    href='/Inicio') Inicio
+      li: a(class={active: actual == '/Nosotros'}  href='/Nosotros') Nosotros
+      li: a(class={active: actual == '/Servicios'} href='/Servicios') Servicios
+      li: a(class={active: actual == '/Contacto'}  href='/Contacto') Contacto
+      br
+      br
+      // Clases e Identificadores Literales
+      .amarillo Texto
+      br
+      .amarillo.centrar.rayado Texto
+      br
+      #cod1 Texto
+      br
+      #cod2.amarillo.centrar.rayado Texto
+      br
+      br
+      // &atributos
+      - var atributos = {'data-color': 'red'};
+        div(class="rojo")&attributes(atributos) Lorem Ipsum

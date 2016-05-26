@@ -1,0 +1,18 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Condicionales (jade)
+  body
+    h1 Condicionales (jade)
+    - var edad = 20
+    - var genero = 'F'
+    // Condicional if (Si)
+    if edad < 18
+      h2 Usted es menor de edad
+    else
+      h2 Usted es mayor de edad
+      if genero == 'F'
+        h3 Y no puede prestar servicio
+    
+    

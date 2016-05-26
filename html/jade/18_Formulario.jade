@@ -1,0 +1,71 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Secciones tablas
+  body
+    form(method="past")
+      fieldset
+        // Nombres -------------------------------
+        label(for="nombres") Nombre
+        input(type="text", id="nombres")
+        legend Datos de Usuario.
+        
+        // Contraseña ----------------------------
+        label(for="contrasena") Contraseña
+        input(type="password", id="contrasena")
+        br
+        br
+        // Foto
+        label(for="Foto") Foto
+        input(type="file", id="Foto", accept="imagen/*")
+        br
+        br
+        // Lenguaje de Programacion -------------
+        label(for="Lenguajes") Lenguajes Programacion
+        br
+        br
+        Label PHP
+          input(type="checkbox", name="Lenguajes", value="PHP")
+        label Java
+          input(type="checkbox", name="Lenguajes", value="Java")
+        label C#
+          input(type="checkbox", name="Lenguajes", value="C#")
+        br
+        br
+        // NAcionalidad
+        label Nacionalidad
+        br
+        label Colombia
+          input(type="radio", name="nacionalidad", value="Colombia")
+        label Venezuela
+           input(type="radio", name="nacionalidad", value="Venezuela")
+        label Ecuador 
+           input(type="radio", name="nacionalidad", value="Ecuador")
+           br
+           br
+        // Genero---------------------------------
+        label(for="genero") Genero
+        select
+          option Seleccione...
+          option(value="F") Femenino
+          option(value="M") Masculino
+        br
+        br
+        // Deporte
+        label(for="Deportes") Deportes
+        select(multiple="multiple", id="deporte")
+          option(value="1") Futbol
+          option(value="2") Baloncesto
+          option(value="3") Tennis
+          option(value="4") Natacion
+        br
+        br
+        // Descripcion---------------------------- 
+        label(for="Descripcion") Descripcion
+        textarea(id="Descripcion", cols='40', rows='6')
+        br
+        br
+        // Botones
+        input(type="submit", value="Enviar Datos")
+        input(type="reset", vale="Reiniciar Formulario")

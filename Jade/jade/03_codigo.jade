@@ -1,0 +1,19 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Codigo (jade)
+  body
+    h1 Codigo (jade)
+    // Ciclo For
+    ul
+      - for (var i = 1; i <= 10; i++)
+        li elemento #{i}
+    // Ciclo Each a un Arreglo    
+    ol
+      -
+        bicis = ["Chaman", "Druida", "Guerrero", "Paladin", "Brujo", "Caballero de la Muerte"]
+      each bici in bicis
+        li= bici
+    
+    

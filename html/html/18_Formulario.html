@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Secciones tablas</title>
+  </head>
+  <body background="C:\Users\AprendizAdm\Downloads/Artorias.jpg">
+    <form method="past">
+      <fieldset>
+       <div>   
+        <label for="nombres">Nombre</label>
+        <input type="text" id="nombres">
+        <legend>Datos de Usuario.</legend>
+        <label for="contrasena">Contraseña</label>
+        <input type="password" id="contrasena"><br><br>
+        <label for="Foto">Foto</label>
+        <input type="file" id="Foto" accept="imagen/*"><br><br>
+        <label for="Lenguajes">Lenguajes Programacion</label><br><br>
+        <Label>PHP
+          <input type="checkbox" name="Lenguajes" value="PHP">
+        </Label>
+        <label>Java
+          <input type="checkbox" name="Lenguajes" value="Java">
+        </label>
+        <label>C#
+          <input type="checkbox" name="Lenguajes" value="C#">
+        </label><br><br>
+        <label>Nacionalidad</label><br>
+        <label>Colombia
+          <input type="radio" name="nacionalidad" value="Colombia">
+        </label>
+        <label>Venezuela
+          <input type="radio" name="nacionalidad" value="Venezuela">
+        </label>
+        <label>Ecuador 
+          <input type="radio" name="nacionalidad" value="Ecuador"><br><br>
+        </label>
+        <label for="genero">Genero</label>
+        <select>
+          <option>Seleccione...</option>
+          <option value="F">Femenino</option>
+          <option value="M">Masculino</option>
+        </select><br><br>
+        <label for="Deportes">Deportes</label>
+        <select multiple="multiple" id="deporte">
+          <option value="1">Futbol</option>
+          <option value="2">Baloncesto</option>
+          <option value="3">Tennis</option>
+          <option value="4">Natacion</option>
+        </select><br><br>
+        <label for="Descripcion">Descripcion</label>
+        <textarea id="Descripcion" cols="40" rows="6"></textarea><br><br>
+        <input type="submit" value="Enviar Datos">
+        <input type="reset" vale="Reiniciar Formulario">
+      </fieldset>
+    </form>
+  </body>
+</html>

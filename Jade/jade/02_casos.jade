@@ -1,0 +1,40 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Case
+  body
+    h1 Casos (jade)
+    - var juegos = 5
+    case juegos
+      when 0 
+        p No tienes juegos
+      when 2
+        p Tienes pocos juegos
+      default 
+        p Tienes #{juegos} juegos
+        
+        
+    - var juegos = 8
+    case juegos
+      when 0
+      when 1
+      when 2
+      when 3
+      when 4
+      when 5
+      when 6
+      when 7
+      when 8
+        p Tienes pocos juegos
+      default
+        p Tienes #{juegos} juegos
+        
+        
+    - var juegos = 50
+    case juegos
+      when 0: p  no tienes juegos
+      when 1: p tienes un juego
+      default: p tienes #{50} juegos
+        
+       

@@ -1,0 +1,21 @@
+/* Unidades de Medida Porcentuales */
+#box {
+  background-color: #cd853f;
+  width: 100%;
+}
+#box div {
+  background-color: #ffa500;
+  display: inline-block;
+  height: 400px;
+  font-size: 3em;
+  text-align: center;
+}
+.box1 {
+  width: 50%;
+}
+.box2 {
+  width: 30%;
+}
+.box3 {
+  width: 18%;
+}

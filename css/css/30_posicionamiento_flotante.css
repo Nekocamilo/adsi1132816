@@ -1,0 +1,51 @@
+body {
+  color: #999;
+  font: 16px Arial;
+}
+section.padre {
+  border: 2px solid #ccc;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+section.padre div {
+  border: 2px solid #ccc;
+  height: 60px;
+  width: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 60px;
+}
+section.padre1 {
+  border: 2px solid #ccc;
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+}
+section.padre1 div {
+  border: 2px solid #ccc;
+  height: 60px;
+  width: 120px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 60px;
+}
+div.hija4 {
+  float: right;
+  background-color: #00f;
+}
+section.padreimagen {
+  border: 2px solid #ccc;
+  height: 400px;
+  padding: 10px;
+  width: 600px;
+}
+section.padreimagen img {
+  float: left;
+  margin-right: 10px;
+}
+section.padreimagen p.limpiar {
+  clear: left;
+}

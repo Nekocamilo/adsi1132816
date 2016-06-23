@@ -1,0 +1,94 @@
+body {
+  background-color: #f30535;
+  font: 16px Tahoma;
+  color: #31d2a2;
+}
+h2 {
+  background-color: #872c9e;
+  padding: 20px;
+}
+section {
+  background-color: rgba(255,255,255,0.5);
+  height: 500px;
+  padding: 20px;
+}
+section div {
+  display: inline-block;
+  height: 400px;
+  margin-left: 4px;
+  width: 400px;
+}
+.fondocolor .fondo1 {
+  background-color: #ff0;
+}
+.fondocolor .fondo2 {
+  background-color: #00f;
+}
+.fondocolor .fondo3 {
+  background-color: #f00;
+}
+.imagenfondo .fondo1 {
+  background-image: url("../imgs/WoW.jpg");
+}
+.imagenfondo .fondo2 {
+  background-image: url("../imgs/Kirito.jpg");
+}
+.imagenfondo .fondo3 {
+  background-image: url("../imgs/Ds.jpg");
+}
+.repetirfondo div {
+  background-color: #fff;
+  background-image: url("../imgs/Ds.jpg");
+  width: 320px;
+}
+section div h3 {
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  text-align: center;
+}
+.repetirfondo .fondo1 {
+  background-repeat: repeat;
+}
+.repetirfondo .fondo2 {
+  background-repeat: no-repeat;
+}
+.repetirfondo .fondo3 {
+  background-repeat: repeat-x;
+}
+.repetirfondo .fondo4 {
+  background-repeat: repeat-y;
+}
+.posicionfondo {
+  height: 1200px;
+}
+.posicionfondo div {
+  background-image: url("../imgs/Ds.jpg");
+  background-repeat: no-repeat;
+}
+.posicionfondo .fondo1 {
+  background-position: center left;
+}
+.posicionfondo .fondo2 {
+  background-position: center center;
+}
+.posicionfondo .fondo3 {
+  background-position: center right;
+}
+.posicionfondo .fondo4 {
+  background-position: top left;
+}
+.posicionfondo .fondo5 {
+  background-position: top center;
+}
+.posicionfondo .fondo6 {
+  background-position: top right;
+}
+.posicionfondo .fondo7 {
+  background-position: bottom left;
+}
+.posicionfondo .fondo8 {
+  background-position: bottom center;
+}
+.posicionfondo .fondo9 {
+  background-position: bottom right;
+}

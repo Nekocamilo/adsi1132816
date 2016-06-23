@@ -1,0 +1,22 @@
+body html {
+  background: -webkit-linear-gradient(top, #000, #f00);
+  color: rgba(255,255,255,0.5);
+  height: 100%;
+}
+section {
+  margin: 0px auto;
+  width: 600px;
+}
+article {
+  height: 100px;
+  margin-bottom: 100px;
+}
+.rojo {
+  background: -webkit-linear-gradient(left, #f00, rgba(255,0,0,0));
+}
+.verde {
+  background: -webkit-linear-gradient(left, #0f0, rgba(0,255,0,0));
+}
+.azul {
+  background: -webkit-linear-gradient(left, #00f, rgba(0,0,255,0));
+}

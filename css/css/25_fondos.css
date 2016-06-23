@@ -1,0 +1,38 @@
+div {
+  width: 250px;
+  height: 250px;
+}
+div#box1 {
+  background-color: #08f;
+}
+div#box2 {
+  background: url("../imgs/WoW.jpg");
+}
+div#box3 {
+  background: url("../imgs/kirito.jpg");
+}
+div.box {
+  background-color: black;
+  background: url("../imgs/kirito.jpg");
+  display: inline-block;
+  vertical-align: top;  
+  border: 2px solid #fff;
+}
+div.box span{
+	background-color: black;
+	display: block;
+	padding: 10px;
+	color: white;
+}
+div#box3-1 {
+	background-repeat: repeat;
+}
+div#box3-2{
+	background-repeat: no-repeat;
+}
+div#box3-3{
+	background-repeat: repeat-x;
+}
+div#box-4{
+	background-repeat: repeat-y;
+}

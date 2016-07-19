@@ -1,0 +1,20 @@
+section {
+  border: 2px solid #808080;
+  width: 400px;
+}
+div {
+  display: inline-block;
+}
+img {
+  border-style: dashed;
+  color: #f00;
+}
+p.baseline {
+  vertical-align: baseline;
+}
+p.top {
+  vertical-align: top;
+}
+p.middle {
+  vertical-align: middle;
+}

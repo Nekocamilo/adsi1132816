@@ -1,0 +1,21 @@
+body {
+  font-family: Tahoma;
+}
+p.lighter {
+  font-weight: lighter;
+}
+p.normal {
+  font-weight: normal;
+}
+p.bold {
+  font-weight: bold;
+}
+p.bolder {
+  font-weight: bolder;
+}
+p.w100 {
+  font-weight: 100;
+}
+p.w900 {
+  font-weight: 900;
+}
